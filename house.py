@@ -1,9 +1,7 @@
 name = input("What is your name? ")
 
 match name:
-    case "Harry":
-        print("Gryffindor")
-    case: "Ron":
+    case "Harry" | "Ron" | "Hermione":
         print("Gryffindor")
     case "Draco":
         print("Slytherin")
