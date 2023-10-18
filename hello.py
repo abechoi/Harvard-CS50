@@ -28,7 +28,7 @@ flush=False - A Boolean, specifying if the output is flushed (True) or buffered 
 # print(name)
 
 def main():
-    name = input("What's your name? ")
+    name = input("What's your name?")
     hello(name)
 
 def hello(name="world"):
