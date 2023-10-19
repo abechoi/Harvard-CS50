@@ -20,6 +20,7 @@ def main():
     print("X squared =", square(x))
 
 def square(x):
-    return pow(x, 2)
+    return x ** 2
 
-main()
+if __name__ == "__main__" :
+    main()
