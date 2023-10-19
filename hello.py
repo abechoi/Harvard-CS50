@@ -29,11 +29,14 @@ flush=False - A Boolean, specifying if the output is flushed (True) or buffered 
 
 def main():
     name = input("What's your name?")
-    hello(name)
+    print(hello(name))
 
 def hello(name="world"):
-    name = name.strip().title()
-    first, last = name.split(" ")
-    print(f"hello, {first} {last}!")
+    name = name.strip()
 
-main()
+    output = f"hello, {name}!"
+    return output
+
+
+if __name__ == "__main__":
+    main()
